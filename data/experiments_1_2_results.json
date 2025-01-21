@@ -1,0 +1,154 @@
+{
+    "data": [
+        {
+            "k": null,
+            "syn_k": null,
+            "extractor": "metamap",
+            "dataset": "gpt3.5",
+            "synonyms": false,
+            "precision": 32.22,
+            "recall": 66.59,
+            "f1": 43.43
+        },
+        {
+            "k": null,
+            "syn_k": null,
+            "extractor": "quickumls",
+            "dataset": "gpt3.5",
+            "synonyms": false,
+            "precision": 21.99,
+            "recall": 49.08,
+            "f1": 30.37
+        },
+        {
+            "k": 5,
+            "syn_k": null,
+            "extractor": "bm25",
+            "dataset": "gpt3.5",
+            "synonyms": false,
+            "precision": 17.17,
+            "recall": 77.61,
+            "f1": 28.12
+        },
+        {
+            "k": null,
+            "syn_k": 1,
+            "extractor": "metamap",
+            "dataset": "gpt3.5",
+            "synonyms": true,
+            "precision": 10.81,
+            "recall": 78.79,
+            "f1": 19.01
+        },
+        {
+            "k": null,
+            "syn_k": 3,
+            "extractor": "metamap",
+            "dataset": "gpt3.5",
+            "synonyms": true,
+            "precision": 10.81,
+            "recall": 78.79,
+            "f1": 19.01
+        },
+        {
+            "k": null,
+            "syn_k": 1,
+            "extractor": "quickumls",
+            "dataset": "gpt3.5",
+            "synonyms": true,
+            "precision": 8.25,
+            "recall": 66.21,
+            "f1": 14.67
+        },
+        {
+            "k": null,
+            "syn_k": 3,
+            "extractor": "quickumls",
+            "dataset": "gpt3.5",
+            "synonyms": true,
+            "precision": 8.25,
+            "recall": 66.21,
+            "f1": 14.67
+        },
+        {
+            "k": 5,
+            "syn_k": 1,
+            "extractor": "bm25",
+            "dataset": "gpt3.5",
+            "synonyms": true,
+            "precision": 13.01,
+            "recall": 84.85,
+            "f1": 22.56
+        },
+        {
+            "k": 5,
+            "syn_k": 3,
+            "extractor": "bm25",
+            "dataset": "gpt3.5",
+            "synonyms": true,
+            "precision": 7.79,
+            "recall": 88.0,
+            "f1": 14.31
+        },
+        {
+            "k": null,
+            "syn_k": 1,
+            "extractor": "metamap",
+            "dataset": "vicuna",
+            "synonyms": true,
+            "precision": 6.27,
+            "recall": 76.64,
+            "f1": 11.59
+        },
+        {
+            "k": null,
+            "syn_k": 3,
+            "extractor": "metamap",
+            "dataset": "vicuna",
+            "synonyms": true,
+            "precision": 6.27,
+            "recall": 76.64,
+            "f1": 11.59
+        },
+        {
+            "k": null,
+            "syn_k": 1,
+            "extractor": "quickumls",
+            "dataset": "vicuna",
+            "synonyms": true,
+            "precision": 7.09,
+            "recall": 62.91,
+            "f1": 12.74
+        },
+        {
+            "k": null,
+            "syn_k": 3,
+            "extractor": "quickumls",
+            "dataset": "vicuna",
+            "synonyms": true,
+            "precision": 7.09,
+            "recall": 62.91,
+            "f1": 12.74
+        },
+        {
+            "k": 5,
+            "syn_k": 1,
+            "extractor": "bm25",
+            "dataset": "vicuna",
+            "synonyms": true,
+            "precision": 12.32,
+            "recall": 82.38,
+            "f1": 21.43
+        },
+        {
+            "k": 5,
+            "syn_k": 3,
+            "extractor": "bm25",
+            "dataset": "vicuna",
+            "synonyms": true,
+            "precision": 7.43,
+            "recall": 84.76,
+            "f1": 13.66
+        }
+    ]
+}

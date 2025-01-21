@@ -1,0 +1,10 @@
+langchain
+ollama
+openai
+pandas
+pgvector
+psycopg2-binary
+python-dotenv
+quickumls
+retriv
+tiktoken
